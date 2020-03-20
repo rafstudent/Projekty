@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4323180759116849054}
   - component: {fileID: 1076163962112522873}
   - component: {fileID: 4240139372510339809}
+  - component: {fileID: 6563625776046084972}
   m_Layer: 0
   m_Name: CoinSprite
   m_TagString: Untagged
@@ -109,3 +110,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c122e70502b94204bb8e692093b3b02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!70 &6563625776046084972
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5772333658153146742}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.28, y: 1.28}
+  m_Direction: 0

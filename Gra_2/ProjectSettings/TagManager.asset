@@ -12,6 +12,8 @@ TagManager:
   - Platform
   - Bullet
   - HealthBar
+  - PickUp
+  - PickUp_2
   layers:
   - Default
   - TransparentFX
