@@ -782,21 +782,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallDelay: 3
---- !u!114 &2088757180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088757178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c373c7448a1a7bc44adfb3dcb00ac068, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinSpawns:
-  - {fileID: 0}
-  coin: {fileID: 72584585}
 --- !u!4 &2088757184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4304836549571424733, guid: b78099e6123324448967e408cdd0602c,
