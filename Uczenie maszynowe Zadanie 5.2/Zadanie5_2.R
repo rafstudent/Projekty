@@ -28,3 +28,10 @@ metody_uczenia <- makeLearners(c("rpart", "C50","rFerns","randomForestSRC"), typ
 porownanie_metod_uczenia <- benchmark(learners = metody_uczenia,
                                       tasks = zadanie,
                                       resampling = ponowne_probkowanie)
+
+
+plotBMRBoxplots(porownanie_metod_uczenia, measure = mmce,
+                order.lrn = getBMRLearnerIds(porownanie_metod_uczenia))
+plotBMRSummary(porownanie_metod_uczenia)
+plotBMRRanksAsBarChart(porownanie_metod_uczenia, pos = "dodge",
+                       order.lrn = getBMRLearnerIds(porownanie_metod_uczenia))
